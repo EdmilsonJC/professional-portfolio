@@ -16,3 +16,8 @@ header {
 section {
   display: flex;
 }
+
+nav{
+    display: flex;
+    gap: 93px;
+}
