@@ -1,4 +1,5 @@
 * {
+  background-color: #fbfbfb;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -9,15 +10,117 @@
 
 header {
   width: 100%;
-  height: 1080px;
-  background-color: #fbfbfb;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section {
   display: flex;
 }
 
-nav{
-    display: flex;
-    gap: 93px;
+nav {
+  display: flex;
+  gap: 93px;
+  padding-left: 207px;
+}
+
+header h1 {
+  margin-left: 19px;
+  color: #445964;
+}
+
+nav > a {
+  font-size: 20px;
+  color: #445964;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100;
+  margin-top: 140px;
+  gap: 167px;
+}
+
+aside > h2 {
+  color: #445964;
+  font-size: 24px;
+  display: flex;
+}
+
+h2 > span {
+  font-size: 72px;
+  font-weight: 900;
+  width: 545px;
+}
+
+button {
+  background-color: #263138;
+  width: 310px;
+  height: 65px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 22px;
+  margin-top: 130px;
+  margin-bottom: 175px;
+}
+
+aside :last-child {
+  display: flex;
+  gap: 26px;
+}
+
+.social-media :nth-child(n) {
+  width: 40px;
+  height: 40px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 109px;
+}
+
+.description-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.description-about :last-child {
+  font-size: 24px;
+  color: #445964;
+}
+
+.description-about :first-child {
+  width: 186px;
+  height: 207px;
+}
+
+.description-about :last-child(2) {
+  font-size: 64px;
+  color: #445964;
+}
+
+.description-about :nth-child(2) {
+  font-size: 64px;
+  color: #445964;
+}
+
+.box-content{
+  
+}
+
+.icon-box{
+  height:40px;
+  width: 40px;
+  border-radius: 40px;
+  border: ;
 }
